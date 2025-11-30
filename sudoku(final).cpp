@@ -59,7 +59,7 @@ int main() {
 				cout << "This cell is already filled! Choose another.\n";
 				continue;
 			}
-			if (grid[row][col] == solution[row][col]) {
+			if (val == solution[row][col]) {
 				score += 5;
 				cout << "\nScore + 5\n" << "Score: " << score << endl;
 				grid[row][col] = solution[row][col];
